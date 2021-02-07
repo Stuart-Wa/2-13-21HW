@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-direction:column;
+    line-height: 1.3;
+  }
+  
+
+    /* adds styling for headers & content */
+
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #237ed3;
+    color: honeydew 
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: honeydew;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    font-size: 2rem;
+    color: #237ed3;
+    font-weight: bold;
+    padding: 1rem;
+  }
+  h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1%;
+    font-size: 2rem;
+    color: #237ed3;
+    font-weight: bold;
+    padding: 1rem;
+
+  }
+  h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1%;
+    font-size: 2rem;
+    color: #237ed3;
+    font-weight: bold;
+   padding: 1rem;
+
+  }
+p {
+    margin-top: 3rem;
+    font-weight: bold;
+    padding: .5rem;
+    border-color: #237ed3;
+    
+}
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    min-width: 250px;
+  }
+  li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1%;
+      min-width: 120px;
+
+  }
+ 
+  
+  nav a {
+    color: honeydew;
+    font-weight: bold;
+    
+  }
+  
+  main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+   
+  }
+  div {
+      font-size: 1.1rem;
+      color: black;
+  }
+  
+
+  
+    /* adds hover effect to Html & css images */
+  
+  a:hover {
+      background-color: #237ed3
+
+  }
+  
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color:#237ed3;
+    color: honeydew;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+    /* allows page to scale for different screen sizes */
+
+  @media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
