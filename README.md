@@ -2,4 +2,4 @@
 Homework for 2-13-21
 Stuart Walsh
 Completed Portfolio Homework assignment 
-Deployed live at http://stuartwalshportfolio.c1.biz
+Deployed live at https://stuart-wa.github.io/2-13-21HW/
